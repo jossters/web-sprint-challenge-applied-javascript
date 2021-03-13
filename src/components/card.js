@@ -36,8 +36,8 @@ const Card = (article) => {
   author.classList.add("author");
   imgdiv.classList.add("img-container");
   
-  headline.textContent = `${article.headline}`;
-  authorName.textContent = `${article.authorName}`;
+  headline.textContent = article.headline;
+  authorName.textContent = article.authorName;
   
   img.src = article.authorPhoto
   

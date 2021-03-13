@@ -35,11 +35,11 @@ const Tabs = (topics) => {
     tab4.classList.add("tab");
     tab5.classList.add("tab");
 
-    tab1.textContent = `${topics.data.topics[0]}`;
-    tab2.textContent = `${topics.data.topics[1]}`;
-    tab3.textContent = `${topics.data.topics[2]}`;
-    tab4.textContent = `${topics.data.topics[3]}`;
-    tab5.textContent = `${topics.data.topics[4]}`;
+    tab1.textContent = topics.data.topics[0];
+    tab2.textContent = topics.data.topics[1];
+    tab3.textContent = topics.data.topics[2];
+    tab4.textContent = topics.data.topics[3];
+    tab5.textContent = topics.data.topics[4];
     
     return topics1
 }
